@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_person_outline_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_list_alt_24"
+            android:title="Lists" />
+        <item
+            android:id="@+id/nav_moments"
+            android:icon="@drawable/baseline_video_library_24"
+            android:title="Moments" />
+        <item
+            android:id="@+id/nav_highlight"
+            android:icon="@drawable/baseline_highlight_alt_24"
+            android:title="Highlights" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/baseline_settings_applications_24"
+            android:title="Settings and privacy" />
+        <item
+            android:id="@+id/nav_helpcenter"
+            android:icon="@drawable/baseline_help_center_24"
+            android:title="Help Center" />
+        <item
+            android:id="@+id/nav_nightmode"
+            android:icon="@drawable/baseline_mode_night_24"
+            android:title="Night Mode" />
+    </group>
+</menu>
